@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState, useAppSelector } from "../../app/store";
 import { carsData } from "../../carsData";
 
-// Define a type for the slice state
+// Define slice state
 interface CarState {
    cars: Car[];
    cart: Car[];
